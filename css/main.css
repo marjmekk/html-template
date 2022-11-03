@@ -1,25 +1,31 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://www.typewolf.com/spectral');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color:#5c2018;
+    font-family: 'spectral';
     font-size: 0.95em;
     line-height: 1.5em;
 }
 
 ::selection {
     color: #000; 
-    background: #ff0;
+    background: whitesmoke
 }
 
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #fff;
+    background:white;
     line-height: 2.5em;
 }
+
+/* Adds google font to H1 for main pages */
+h1 page-header{
+    font-family:'spectral';
+}
+
 
 main.wrapper {
     background-color: white;
@@ -37,13 +43,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:#84CEEB;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: #f3e0dc ;
     text-decoration: none;
 }
 
