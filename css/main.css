@@ -1,10 +1,10 @@
 /* Global rules */
 
-@import url('https://www.typewolf.com/spectral');
+@import url('https://www.typewolf.com/biorhyme');
 
 html {
     background-color:#5c2018;
-    font-family: 'spectral';
+    font-family: 'biorhyme';
     font-size: 0.95em;
     line-height: 1.5em;
 }
@@ -23,7 +23,7 @@ h1 {
 
 /* Adds google font to H1 for main pages */
 h1 page-header{
-    font-family:'spectral';
+    font-family:'biorhyme';
 }
 
 
