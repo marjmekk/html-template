@@ -1,13 +1,17 @@
 /* Global rules */
 
-@import url('https://www.typewolf.com/biorhyme');
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Spectral');
 
 html {
     background-color:#5c2018;
-    font-family: 'biorhyme';
+    font-family: 'spectral';
     font-size: 0.95em;
     line-height: 1.5em;
 }
+
+body{
+    margin:0; /* removes space above body, top of page */
+ } 
 
 ::selection {
     color: #000; 
@@ -23,14 +27,23 @@ h1 {
 
 /* Adds google font to H1 for main pages */
 h1 page-header{
-    font-family:'biorhyme';
-}
-
-
-main.wrapper {
+    font-family:'spectral';
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+ }
+ 
+ main.wrapper {
     background-color: white;
     overflow: auto;
-}
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+ } 
 
 p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
